@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Epic Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">Network</div>
+        <h4 id="tittle"> Your Feed</h4>
+        <div class="main">
+            <div class="left">
+                <div class="box-avatar">
+                <ion-icon id="icon" name="person-circle-outline"></ion-icon>
+                <p id="link-avatar"><a  href="#">Add an avatar</a></p>
+                <h4>James Doe</h4>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box">
+                    <div class="top-line">
+                    <h5 id="top-name">Neil M</h5>
+                    <h5 id="top-likes1"> 9 likes(s)</h5>
+                    <button onclick="add1()" id="btn-like">Like</button>
+                    </div>
+                    <div class="box-content">
+                    <p id="text-content">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="top-line">
+                    <h5 id="top-name">Nichole K</h5>
+                    <h5 id="top-likes2"> 12 likes(s)</h5>
+                    <button onclick="add2()" id="btn-like">Like</button>
+                    </div>
+                    <div class="box-content">
+                    <p id="text-content">Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="top-line">
+                    <h5 id="top-name">Jim R</h5>
+                    <h5 id="top-likes3"> 9 likes(s)</h5>
+                    <button onclick="add3()" id="btn-like">Like</button>
+                    </div>
+                    <div class="box-content">
+                    <p id="text-content">I can't stop listening to the <a href="#">new album</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
